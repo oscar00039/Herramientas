@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<meta charset="utf-8">
+	<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet"  href="css/estilos.css">
+	<title>Proyecto Pagina Web Herramientas de Diseño </title>
+</head>
+<body>
+
+	
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="#!">
+    <img src="icon/icono.PNG" height="90" alt="Pc Games logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="#">PC Games <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categorias
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Aventura</a>
+                  <a class="dropdown-item" href="#">Accion</a>
+                  <a class="dropdown-item" href="#">Deportes</a>
+                  <a class="dropdown-item" href="#">Conduccion</a>
+                  <a class="dropdown-item" href="#">Estrategia</a>
+                  <a class="dropdown-item" href="#">Simulacion</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Descargas</a>
+          </li>
+          <a class="nav-link" href="#">Contacto <span class="sr-only"></span></a>
+          </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+  </div>
+</nav>
+<!--/.Navbar-->
+
+<div class="bd-carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><span class="badge badge-pill badge-success">FIFA 2019</span></h3>
+            <p class="p-2 bg-inverse text-white">FIFA 19 es un videojuego arcade de fútbol desarrollado por
+              EA Vancouver y EA Rumania, como parte de la serie FIFA de Electronic Arts.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><span class="badge badge-pill badge-success">FORTNITE</span></h3>
+            <p><em></em>Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games,
+              lanzado como diferentes paquetes de software que presentan diferentes modos de
+              juego</em></em></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><span class="badge badge-pill badge-success">ANTHEM</span></h3>
+            <p>Anthem es un videojuego de mundo abierto desarrollado por Bioware, creadores de Mass Effect y
+              Dragon Age, y distribuido por Electronic Arts, que utilizará el motor gráfico Frostbite.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  
+
+  <div class="etiquetas">
+      <h3><span class="badge badge-pill badge-success">Categorias Juegos Pc</span></h3>
+    </div>
+
+    
+ 
+
+  <!-- Grid row -->
+<div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-12 mb-4">
+  
+      <!--Modal: Name-->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          
+  
+          <!--Content-->
+          <div class="modal-content">
+  
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+  
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/M9FGaan35s0" frameborder="0"
+                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              
+  
+            </div>
+  
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+              <span class="mr-4">Fallout</span>
+              <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+  
+            </div>
+  
+          </div>
+          <!--/.Content-->
+  
+        </div>
+      </div>
+      <!--Modal: Name-->
+  
+      <a><img class="img-fluid z-depth-1" src="img/fallout.jpg" alt="video"
+          data-toggle="modal" data-target="#modal1"></a>
+  
+    </div>
+    <!-- Grid column -->
+  
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-4">
+  
+      <!--Modal: Name-->
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+  
+          <!--Content-->
+          <div class="modal-content">
+  
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+  
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/fgHHESZ0_Ls" frameborder="0" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+  
+            </div>
+  
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+              <span class="mr-4">Mass Effect 5</span>             
+              <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+  
+            </div>
+  
+          </div>
+          <!--/.Content-->
+  
+        </div>
+      </div>
+      
+      <!--Modal: Name-->
+  
+      <a><img class="img-fluid z-depth-1" src="img/mass.jpg" alt="video"
+          data-toggle="modal" data-target="#modal2"></a>
+  
+    </div>
+    
+    <!-- Grid column -->
+  
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-4">
+  
+      <!--Modal: Name-->
+      <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+  
+          <!--Content-->
+          <div class="modal-content">
+  
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+  
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/dxa34RatmSc" frameborder="0" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+  
+            </div>
+  
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+              <span class="mr-4">Arkham Knight</span>
+              <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+  
+            </div>
+  
+          </div>
+          <!--/.Content-->
+  
+        </div>
+      </div>
+      <!--Modal: Name-->
+  
+      <a><img class="img-fluid z-depth-1" src="img/arkham.jpg" alt="video"
+          data-toggle="modal" data-target="#modal3"></a>
+  
+    </div>
+    <!-- Grid column -->
+  
+  </div>
+  <!-- Grid row -->
+  
+
+</div>
+<!-- Card deck -->
+
+
+ <!-- Grid row -->
+ <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-12 mb-4">
+  
+      <!--Modal: Name-->
+      <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          
+  
+          <!--Content-->
+          <div class="modal-content">
+  
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+  
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ODWCbu_cuqk" frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              
+  
+            </div>
+  
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+              <span class="mr-4">Battlegrounds</span>
+              <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+  
+            </div>
+  
+          </div>
+          <!--/.Content-->
+  
+        </div>
+      </div>
+      <!--Modal: Name-->
+  
+      <a><img class="img-fluid z-depth-1" src="img/battle.jpg" alt="video"
+          data-toggle="modal" data-target="#modal4"></a>
+  
+    </div>
+    <!-- Grid column -->
+  
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-4">
+  
+      <!--Modal: Name-->
+      <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+  
+          <!--Content-->
+          <div class="modal-content">
+  
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+  
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/nkQvTv_d-dA" frameborder="0" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+  
+            </div>
+  
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+              <span class="mr-4">Injustice 2</span>             
+              <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+  
+            </div>
+  
+          </div>
+          <!--/.Content-->
+  
+        </div>
+      </div>
+      
+      <!--Modal: Name-->
+  
+      <a><img class="img-fluid z-depth-1" src="img/bg1.jpg" alt="video"
+          data-toggle="modal" data-target="#modal5"></a>
+  
+    </div>
+    
+    <!-- Grid column -->
+  
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-4">
+  
+      <!--Modal: Name-->
+      <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+  
+          <!--Content-->
+          <div class="modal-content">
+  
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+  
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/oBI0MU73nlc" frameborder="0"
+                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+  
+            </div>
+  
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+              <span class="mr-4">Dragon Ball FighterZ</span>
+              <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+  
+            </div>
+  
+          </div>
+          <!--/.Content-->
+  
+        </div>
+      </div>
+      <!--Modal: Name-->
+  
+      <a><img class="img-fluid z-depth-1" src="img/dragon-ball.jpg" alt="video"
+          data-toggle="modal" data-target="#modal6"></a>
+  
+    </div>
+    <!-- Grid column -->
+  
+  </div>
+  <!-- Grid row -->
+
+  <!-- Grid row -->
+ <div class="row">
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-12 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/OWwemepv8mk" frameborder="0"
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Mario</span>
+            <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="img/mario.jpg" alt="video"
+        data-toggle="modal" data-target="#modal7"></a>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/do8tim_rWfA" frameborder="0"
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">The Witcher 4</span>             
+            <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="img/witcher.jpg" alt="video"
+        data-toggle="modal" data-target="#modal8"></a>
+
+  </div>
+  
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/zJ477xAIlgU" frameborder="0"
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Forza Horizon 4</span>
+            <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="img/forza.jpg" alt="video"
+        data-toggle="modal" data-target="#modal9"></a>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+ <!-- Grid row -->
+ <div class="row">
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-12 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe width="1195" height="672" src="https://www.youtube.com/embed/cWBwFhUv1-8" frameborder="0"
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Dark Soul III</span>
+            <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="img/nerdix-dark-souls.jpg" alt="video"
+        data-toggle="modal" data-target="#modal10"></a>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/K0u_kAWLJOA" frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">God of War</span>             
+            <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="img/God of War.jpg" alt="video"
+        data-toggle="modal" data-target="#modal11"></a>
+
+  </div>
+  
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/bxFoRCvEjUA" frameborder="0"
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Mortal Kombat 11</span>
+            <button type="button" class="btn btn-light-blue btn-md">Descargar</button>
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="img/bg2.jpg" alt="video"
+        data-toggle="modal" data-target="#modal12"></a>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+
+<div class="Container-Paginacion">
+<nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <span class="page-link">Previous</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">
+        2
+        <span class="sr-only">(current)</span>
+      </span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+</div>
+<!-- Grid row -->
+
+
+
+<!-- Section: Blog v.3 -->
+<section class="top-semana">
+
+	<!-- Section heading -->
+	<h3><span class="badge badge-pill badge-success">Noticias </span></h3>
+	<br>  
+	<!-- Grid row -->
+	<div class="row">
+  
+	  <!-- Grid column -->
+	  <div class="col-lg-5 col-xl-4">
+  
+		<!-- Featured image -->
+		<div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+		  <img class="img-fluid" src="img/intel.jpg" alt="Sample image">
+		  <a>
+			<div class="mask rgba-white-slight"></div>
+		  </a>
+		</div>
+  
+	  </div>
+	  <!-- Grid column -->
+  
+	  <!-- Grid column -->
+	  <div class="col-lg-7 col-xl-8">
+  
+		<!-- Post title -->
+		<h3 class="text-white font-weight-bold mb-3"><strong>Intel Presenta La Nueva Arquitectura De Sunny Cove</strong></h3>
+		<!-- Excerpt -->
+		<p class="text-white">NEn 2019 Intel pondrá a disposición sus chips Core y Xeon construidos
+			 alrededor de una nueva arquitectura: Sunny Cove. El anuncio se hizo durante el Día de la
+			  Arquitectura en Santa Clara. Según la empresa, .</p>
+		<!-- Post data -->
+		<p> <a class=" text-white font-weight-bold">Admin  13/12/2018</a>, </p>
+		<!-- Read more button -->
+		<a class="btn btn-primary btn-md">Leer Mas</a>
+  
+	  </div>
+	  <!-- Grid column -->
+  
+	</div>
+	<!-- Grid row -->
+  
+	<hr class="my-5">
+  
+	<!-- Grid row -->
+	<div class="row">
+  
+	  <!-- Grid column -->
+	  <div class="col-lg-5 col-xl-4">
+  
+		<!-- Featured image -->
+		<div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+		  <img class="img-fluid" src="img/rx2060.jpg" alt="Sample image">
+		  <a>
+			<div class="mask rgba-white-slight"></div>
+		  </a>
+		</div>
+  
+	  </div>
+	  <!-- Grid column -->
+  
+	  <!-- Grid column -->
+	  <div class="col-lg-7 col-xl-8">
+  
+		<!-- Post title -->
+		<h3 class=" text-white font-weight-bold mb-3"><strong>Rumores Sobre Las GPUS Nvidia RTX 2060</strong></h3>
+		<!-- Excerpt -->
+		<p class=" text-white">Están circulando nuevos rumores sobre la próxima generación de GPUs Nvidia, 
+			conocidas como RTX 2060. En el caso de los ordenadores portátiles, las tarjetas gráficas también
+			 estarán disponibles en el formato Max-Q, con la promesa ….</p>
+		<!-- Post data -->
+		<p> <a class=" text-white font-weight-bold">Oscar Orellana  12/001/2019</a>, </p>
+		<!-- Read more button -->
+		<a class="btn btn-primary btn-md">Leer Mas</a>
+  
+	  </div>
+	  <!-- Grid column -->
+  
+	</div>
+	<!-- Grid row -->
+  
+	<hr class="my-5">
+  
+	<!-- Grid row -->
+	<div class="row">
+  
+	  <!-- Grid column -->
+	  <div class="col-lg-5 col-xl-4">
+  
+		<!-- Featured image -->
+		<div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+		  <img class="img-fluid" src="img/amazon.jpg" alt="Sample image">
+		  <a>
+			<div class="mask rgba-white-slight"></div>
+		  </a>
+		</div>
+  
+	  </div>
+	  <!-- Grid column -->
+  
+	  <!-- Grid column -->
+	  <div class="col-lg-7 col-xl-8">
+  
+		<!-- Post title -->
+		<h3 class="text-white font-weight-bold mb-3"><strong>Amazon España Empieza a Vender Videojuegos Digitales</strong></h3>
+		<!-- Excerpt -->
+		<p class="text-white">La filial española de Amazon, la popular plataforma de venta online,
+			 añade a su catálogo la venta de videojuegos en formato digital; así lo ha anunciado Giorgio Busnelli,
+			  director de media para Amazon España y Amazon Italia..</p>
+		<!-- Post data -->
+		<p> <a class=" text-white font-weight-bold">Alessandro Orellana  11/03/2019</a>, </p>
+		<!-- Read more button -->
+		<a class="btn btn-primary btn-md">Leer Mas</a>
+  
+	  </div>
+	  <!-- Grid column -->
+  
+	</div>
+	<!-- Grid row -->
+  
+  </section>
+  <!-- Section: Blog v.3 -->
+
+  
+  <!-- Default form subscription -->
+<div class="container-suscribete">
+<form class="text-center border border-light p-5">
+
+  <p class="h4 mb-4">Subscribete</p>
+
+  <p>Únete a nuestra lista pagina y recibe lo ultimo de nuestro contenido..</p>
+
+  <p>
+      <a href="" target="_blank">Ve nuestro ultimo Boletin</a>
+  </p>
+
+  <!-- Name -->
+  <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Nombre">
+
+  <!-- Email -->
+  <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Correo Electronico">
+
+  <!-- Sign in button -->
+  <button class="btn btn-info btn-block" type="submit">Registrarse</button>
+
+
+</form>
+</div>
+<!-- Default form subscription -->
+
+
+
+  
+
+<footer>
+
+    <div class="container-footer-all">
+
+      <div class="container-body">
+
+        <div class="colum1">
+
+          <h1>Redes Sociales</h1>
+
+          <div class="row-red">
+            <img src="icon/facebook.png">
+            <label>Siguenos en Facebook</label>
+          </div>
+          <div class="row-red">
+            <img src="icon/twitter.png">
+            <label>Siguenos en Twitter</label>
+          </div>
+          <div class="row-red">
+            <img src="icon/instagram.png">
+            <label>Siguenos en Instagram</label>
+          </div>
+          <div class="row-red">
+            <img src="icon/pinterest.png">
+            <label>Siguenos en Pinteres</label>
+          </div>
+
+
+        </div>
+
+        <div class="colum2">
+
+          <h1>Informacion Contactos</h1>
+
+          <div class="row2">
+            <img src="icon/house.png">
+            <label>Valle de Angeles, Francisco Morazan, Calle Principal
+            </label>
+          </div>
+
+          <div class="row2">
+            <img src="icon/smartphone.png">
+            <label>+504-2766-0000</label>
+          </div>
+
+          <div class="row2">
+            <img src="icon/contact.png">
+            <label>pcgames@gmail.com</label>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-footer">
+      <div class="footer">
+        <div class="copyright">
+          © 2019 Todos los Derechos Reservados |
+          <a href="">PC Games Oscar Orellana</a>
+        </div>
+
+        <div class="information">
+          <a href="">Informacion Compañia</a> |
+          <a href="">Privacion y Politica</a> |
+          <a href="">Terminos y Condiciones</a>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</body>
+</html>
